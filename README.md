@@ -1,6 +1,6 @@
-# Démonstrations IFT3700 / IFT6758
+# IFT3700 / IFT6758 : démonstrations et projet
 
-Ce dépôt regroupe les démonstrations du cours. Nous y publierons les nouveaux exercices et les corrections au fil des séances.
+Ce dépôt regroupe les démonstrations du cours et les consignes des étapes du projet. Nous y publierons les nouveaux exercices, les corrections et les consignes au fil de la session.
 
 **Un seul environnement Python pour toutes les démos : exécutez `uv sync` à la racine de `ift3700-6758`.** Les dépendances sont déclarées dans le `pyproject.toml` commun et leurs versions sont enregistrées dans `uv.lock`. Chaque démo utilise la même `.venv` à la racine.
 
@@ -33,7 +33,7 @@ Clonez le dépôt une seule fois, puis installez les dépendances communes :
 
 ```sh
 cd <répertoire de votre choix>
-git clone https://github.com/Jay-D13/ift3700-6758.git
+git clone https://github.com/milarobotlearningcourse/data_science.git ift3700-6758
 cd ift3700-6758
 uv sync
 ```
@@ -89,6 +89,16 @@ La démo 1 propose les mêmes leçons en [français](demo_1/notebooks/fr/) et en
 Les anciens labos sont conservés comme références historiques : certaines API, dépendances et données restent à adapter avant de les utiliser comme démos actives avec l’environnement commun. Leur catalogue précise les versions retenues et les corrigés disponibles.
 
 L’[atelier de configuration manuelle](demo_1/python/README_fr.md) explique `venv`, pip et uv. Pour utiliser les notebooks du cours, la procédure `git pull` puis `uv sync` ci-dessus suffit.
+
+## Le projet
+
+Les consignes de chaque étape du projet sont publiées dans un dossier dédié, en français et en anglais.
+
+| Étape | Contenu | Consignes |
+|---|---|---|
+| Étape 1 | Acquisition et nettoyage des données play-by-play de la LNH, outil de débogage interactif, visualisations simples et cartes de tirs; parties LLM/RAG pour IFT6758 seulement | [Français](milestone-1/README_fr.md) · [Anglais](milestone-1/README_en.md) |
+
+Les parties identifiées **[IFT6758 seulement]** dans les consignes ne s’appliquent pas à IFT3700.
 
 ## Ajouter une démo
 

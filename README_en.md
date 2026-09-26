@@ -1,6 +1,6 @@
-# IFT3700 / IFT6758 Demonstrations
+# IFT3700 / IFT6758: Demonstrations and Project
 
-This repository contains the course demonstrations. We will publish new exercises and solutions here as the course progresses.
+This repository contains the course demonstrations and the project milestone guidelines. We will publish new exercises, solutions and guidelines here as the course progresses.
 
 **One Python environment for all demos: run `uv sync` at the root of `ift3700-6758`.** Dependencies are declared in the shared `pyproject.toml`, and their versions are recorded in `uv.lock`. Every demo uses the same `.venv` at the repository root.
 
@@ -33,7 +33,7 @@ Clone the repository once, then install the shared dependencies:
 
 ```sh
 cd <directory of your choice>
-git clone https://github.com/Jay-D13/ift3700-6758.git
+git clone https://github.com/milarobotlearningcourse/data_science.git ift3700-6758
 cd ift3700-6758
 uv sync
 ```
@@ -89,6 +89,16 @@ Demo 1 offers the same lessons in [French](demo_1/notebooks/fr/) and [English](d
 Previous labs are kept as historical references: some APIs, dependencies, and data still need to be adapted before they can be used as active demos with the shared environment. Their catalog specifies the selected versions and available solutions.
 
 The [manual setup workshop](demo_1/python/README_fr.md) explains `venv`, pip, and uv. To use the course notebooks, the `git pull` followed by `uv sync` procedure above is sufficient.
+
+## The project
+
+The guidelines for each project milestone are published in a dedicated folder, in French and English.
+
+| Milestone | Contents | Guidelines |
+|---|---|---|
+| Milestone 1 | Acquiring and cleaning NHL play-by-play data, an interactive debugging tool, simple visualisations and shot maps; LLM/RAG parts for IFT6758 only | [English](milestone-1/README_en.md) · [French](milestone-1/README_fr.md) |
+
+Parts marked **[IFT6758 only]** in the guidelines do not apply to IFT3700.
 
 ## Adding a demo
 
