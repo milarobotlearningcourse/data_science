@@ -1,7 +1,7 @@
 # IFT 6758 Project: Milestone 1
 
-Released: 15 September 2025  
-Due date: 15 October 2025
+Released: 28 September 2026  
+Due date: 19 October 2026, 23:59
 
 The goal of this milestone is to give you experience with the [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling) and [exploratory data analysis](https://en.wikipedia.org/wiki/Exploratory_data_analysis) phases of a data science project, which are often where you will spend most of your time during a data science project. You will gain experience with some of the common tools used to retrieve and manipulate data, as well as build confidence in creating tools and visualisations to help you understand the data prior to jumping into more advanced modelling. 
 
@@ -114,7 +114,7 @@ You must submit **BOTH**:
 1. Blog post style report  
 2. Your team’s codebase **that is reproducible**; i.e. all of the figures can be regenerated easily.
 
-Instead of a traditional report written in LaTeX, you will be asked to submit a blog post which will contain discussion points and (interactive\!) figures. We will provide a template and instructions by 16 September 2024, so don’t worry about having to figure it all out by yourself. At a high level, you will use [Jekyll](https://jekyllrb.com/) to create a static web page from [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). This is a very simple way to create nice looking pages, and could be very useful for you to create blog posts in the future if you are interested, or wish to buff up your resume in a job hunt. Although we will not be deploying these pages to the public[^1], [it is very simple to use github pages to publish your content.](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) You’re more than welcome to do this at the end of the course\!
+Instead of a traditional report written in LaTeX, you will be asked to submit a blog post which will contain discussion points and (interactive\!) figures. Start from the blog post template linked above, so you don’t have to figure it all out by yourself. At a high level, you will use [Jekyll](https://jekyllrb.com/) to create a static web page from [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). This is a very simple way to create nice looking pages, and could be very useful for you to create blog posts in the future if you are interested, or wish to buff up your resume in a job hunt. Although we will not be deploying these pages to the public[^1], [it is very simple to use github pages to publish your content.](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) You’re more than welcome to do this at the end of the course\!
 
 ### Submission Details
 
@@ -122,8 +122,8 @@ To submit your project, you must:
 
 - [ ] Publish your final milestone submission to the  **master** or **main** branch   
       (You must do this first before downloading the ZIPs\!)  
-- [ ] Submit a ZIP of your blog post to [gradescope](https://www.gradescope.com/courses/286503/assignments/1499833)  
-- [ ] Submit a ZIP of your codebase to [gradescope](https://www.gradescope.com/courses/286503/assignments/1499846)  
+- [ ] Submit a ZIP of your blog post to [gradescope](https://www.gradescope.ca/courses/39572/assignments/211695)  
+- [ ] Submit a ZIP of your codebase to [gradescope](https://www.gradescope.ca/courses/39572/assignments/211698)  
 - [ ] Add the IFT6758 TA github account (**`to be released`**)  to your git repo as a *viewer*
 
 **Note**: Only one person per team needs to submit the project to Gradescope.  
@@ -332,8 +332,8 @@ In general we do not expect teams to have any issues. We hope that by laying out
 **Course content**
 
 * [IFT6758 Hockey Primer](https://docs.google.com/document/d/1CP4dbReUdLMwtmnU8_lEQDawrh5LkbDuGDM9Sqza6ZA/edit?usp=sharing)  
-* [IFT6758 Blog post template](https://github.com/udem-ift6758/blogpost-template)  
-* [IFT6758 Project template](https://github.com/udem-ift6758/project-template) \- old release \- will be formally released soon
+* [IFT6758 Blog post template](https://github.com/milarobotlearningcourse/data_science_blog)  
+* [IFT6758 Project template](https://github.com/milarobotlearningcourse/data_science_project)
 
 **API documentation**
 

@@ -1,7 +1,7 @@
 # IFT 6758 Projet : Étape 1
 
-Sortie : 15 septembre 2025  
-Date d'échéance : 15 octobre 2025
+Sortie : 28 septembre 2026  
+Date d'échéance : 19 octobre 2026, 23 h 59
 
 L'objectif de cette étape est de vous donner de l'expérience avec les phases de [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling) et [d'analyse exploratoire des données](https://en.wikipedia.org/wiki/Exploratory_data_analysis) d'un projet de science des données. Ce sont souvent les phases où vous passerez la plupart de votre temps dans un projet de science des données. Vous allez acquérir de l'expérience avec certains des outils courants utilisés pour récupérer et manipuler des données, et gagner en confiance dans la création d'outils et de visualisations pour vous aider à comprendre les données avant de vous lancer dans une modélisation plus avancée.
 
@@ -114,7 +114,7 @@ Vous devez soumettre **LES DEUX** :
 1. Un rapport en style d'article de blog  
 2. La base de code **reproductible** de votre équipe ; c'est-à-dire que toutes les figures peuvent être facilement régénérées.
 
-Au lieu d'un rapport traditionnel rédigé en LaTeX, il vous sera demandé de soumettre un article de blog qui contiendra des points de discussion et des figures (interactives\!). Nous fournirons un modèle et des instructions d'ici le 16 septembre 2024, donc ne vous inquiétez pas de devoir tout comprendre par vous-même. À haut niveau, vous utiliserez [Jekyll](https://jekyllrb.com/) pour créer une page web statique à partir de [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). C'est une manière très simple de créer des pages au design agréable, et cela pourrait vous être très utile à l'avenir si vous souhaitez écrire des articles de blog, ou enrichir votre CV lors d'une recherche d'emploi. Bien que nous ne déploierons pas ces pages publiquement[^1], [il est très simple d'utiliser GitHub Pages pour publier votre contenu.](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) Vous êtes plus que bienvenus de le faire à la fin du cours\!
+Au lieu d'un rapport traditionnel rédigé en LaTeX, il vous sera demandé de soumettre un article de blog qui contiendra des points de discussion et des figures (interactives\!). Partez du modèle d'article de blog indiqué ci-dessus, donc ne vous inquiétez pas de devoir tout comprendre par vous-même. À haut niveau, vous utiliserez [Jekyll](https://jekyllrb.com/) pour créer une page web statique à partir de [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). C'est une manière très simple de créer des pages au design agréable, et cela pourrait vous être très utile à l'avenir si vous souhaitez écrire des articles de blog, ou enrichir votre CV lors d'une recherche d'emploi. Bien que nous ne déploierons pas ces pages publiquement[^1], [il est très simple d'utiliser GitHub Pages pour publier votre contenu.](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) Vous êtes plus que bienvenus de le faire à la fin du cours\!
 
 ### Détails de soumission
 
@@ -122,8 +122,8 @@ Pour soumettre votre projet, vous devez :
 
 - [ ] Publier votre soumission finale de l'étape sur la branche **master** ou **main**  
       (Vous devez le faire avant de télécharger les ZIP\!)  
-- [ ] Soumettre un fichier ZIP de votre article de blog sur [Gradescope](https://www.gradescope.com/courses/286503/assignments/1499833)  
-- [ ] Soumettre un fichier ZIP de votre base de code sur [Gradescope](https://www.gradescope.com/courses/286503/assignments/1499846)  
+- [ ] Soumettre un fichier ZIP de votre article de blog sur [Gradescope](https://www.gradescope.ca/courses/39572/assignments/211695)  
+- [ ] Soumettre un fichier ZIP de votre base de code sur [Gradescope](https://www.gradescope.ca/courses/39572/assignments/211698)  
 - [ ] Ajouter le compte GitHub des auxiliaires d'enseignement d'IFT6758 (**`à venir`**) à votre dépôt en tant que *viewer*
 
 **Note** : Une seule personne par équipe doit soumettre le projet sur Gradescope.  
@@ -330,8 +330,8 @@ En général, nous ne nous attendons pas à ce que les équipes aient des probl�
 **Contenu du cours**
 
 * [IFT6758 Hockey Primer](https://docs.google.com/document/d/1CP4dbReUdLMwtmnU8_lEQDawrh5LkbDuGDM9Sqza6ZA/edit?usp=sharing)  
-* [Modèle d'article de blog IFT6758](https://github.com/udem-ift6758/blogpost-template)  
-* [Modèle de projet IFT6758](https://github.com/udem-ift6758/project-template) \- ancienne version \- sera officiellement publiée bientôt
+* [Modèle d'article de blog IFT6758](https://github.com/milarobotlearningcourse/data_science_blog)  
+* [Modèle de projet IFT6758](https://github.com/milarobotlearningcourse/data_science_project)
 
 **Documentation de l'API**
 
