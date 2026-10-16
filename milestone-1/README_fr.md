@@ -124,7 +124,7 @@ Pour soumettre votre projet, vous devez :
       (Vous devez le faire avant de télécharger les ZIP\!)  
 - [ ] Soumettre un fichier ZIP de votre article de blog sur [Gradescope](https://www.gradescope.ca/courses/39572/assignments/211695)  
 - [ ] Soumettre un fichier ZIP de votre base de code sur [Gradescope](https://www.gradescope.ca/courses/39572/assignments/211698)  
-- [ ] Ajouter le compte GitHub des auxiliaires d'enseignement d'IFT6758 (**`à venir`**) à votre dépôt en tant que *viewer*
+- [ ] Ajouter le compte GitHub des auxiliaires d'enseignement d'IFT6758 ([`@Jay-D13`](https://github.com/Jay-D13)) à votre dépôt en tant que *viewer*
 
 **Note** : Une seule personne par équipe doit soumettre le projet sur Gradescope.  
 Pour soumettre une archive ZIP de votre dépôt, vous pouvez la télécharger via l'interface de GitHub :  

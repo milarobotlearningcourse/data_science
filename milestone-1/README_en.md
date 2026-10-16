@@ -124,7 +124,7 @@ To submit your project, you must:
       (You must do this first before downloading the ZIPs\!)  
 - [ ] Submit a ZIP of your blog post to [gradescope](https://www.gradescope.ca/courses/39572/assignments/211695)  
 - [ ] Submit a ZIP of your codebase to [gradescope](https://www.gradescope.ca/courses/39572/assignments/211698)  
-- [ ] Add the IFT6758 TA github account (**`to be released`**)  to your git repo as a *viewer*
+- [ ] Add the IFT6758 TA github account ([`@Jay-D13`](https://github.com/Jay-D13)) to your git repo as a *viewer*
 
 **Note**: Only one person per team needs to submit the project to Gradescope.  
 To submit a ZIP of your repository, you can download it via the Github UI:  
