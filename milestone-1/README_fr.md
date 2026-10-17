@@ -272,7 +272,7 @@ Pour créer ces figures, vous devez :
 
 **Questions**
 
-1. [Exportez les 4 graphiques de zone offensive en HTML](https://plotly.com/python/interactive-html-export/) et **intégrez-les dans votre article de blog**. Votre graphique doit permettre aux utilisateurs de sélectionner n'importe quelle équipe pour la saison sélectionnée.  
+1. [Exportez les 5 graphiques de zone offensive en HTML](https://plotly.com/python/interactive-html-export/) et **intégrez-les dans votre article de blog**. Votre graphique doit permettre aux utilisateurs de sélectionner n'importe quelle équipe pour la saison sélectionnée.  
    ***Note** : Puisque vous pouvez trouver ces figures sur Internet, répondre à ces questions sans produire ces figures* ne *vous rapportera aucun point\!*  
      
 2. **Discutez** (en quelques phrases) de ce que vous pouvez interpréter à partir de ces graphiques.  
