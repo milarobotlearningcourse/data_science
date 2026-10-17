@@ -274,7 +274,7 @@ To create these figures, you must:
 
 **Questions**
 
-1. [Export the 4 plot offensive zone plots to HTML](https://plotly.com/python/interactive-html-export/), and **embed it into your blog post**. Your plot must allow users to select any team during the selected season.   
+1. [Export the 5 offensive zone plots to HTML](https://plotly.com/python/interactive-html-export/), and **embed it into your blog post**. Your plot must allow users to select any team during the selected season.   
    ***Note**: Because you can find these figures on the internet, answering these questions without producing these figures will* not *get you any marks\!*  
      
 2. **Discuss** (in a few sentences) what you can interpret from these plots.  
