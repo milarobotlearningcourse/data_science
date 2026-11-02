@@ -99,6 +99,7 @@ Les consignes de chaque étape du projet sont publiées dans un dossier dédié,
 | Étape | Contenu | Consignes |
 |---|---|---|
 | Étape 1 | Acquisition et nettoyage des données play-by-play de la LNH, outil de débogage interactif, visualisations simples et cartes de tirs; parties LLM/RAG pour IFT6758 seulement | [Français](milestone-1/README_fr.md) · [Anglais](milestone-1/README_en.md) |
+| Étape 2 | Modèles de buts attendus : régression logistique, ingénierie des caractéristiques, XGBoost, modèles de fondation tabulaires (TabFM) et suivi des expériences avec Weights & Biases | [Français](milestone-2/README_fr.md) · [Anglais](milestone-2/README_en.md) |
 
 Les parties identifiées **[IFT6758 seulement]** dans les consignes ne s’appliquent pas à IFT3700.
 

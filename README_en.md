@@ -99,6 +99,7 @@ The guidelines for each project milestone are published in a dedicated folder, i
 | Milestone | Contents | Guidelines |
 |---|---|---|
 | Milestone 1 | Acquiring and cleaning NHL play-by-play data, an interactive debugging tool, simple visualisations and shot maps; LLM/RAG parts for IFT6758 only | [English](milestone-1/README_en.md) · [French](milestone-1/README_fr.md) |
+| Milestone 2 | Expected goals models: logistic regression, feature engineering, XGBoost, tabular foundation models (TabFM) and experiment tracking with Weights & Biases | [English](milestone-2/README_en.md) · [French](milestone-2/README_fr.md) |
 
 Parts marked **[IFT6758 only]** in the guidelines do not apply to IFT3700.
 
