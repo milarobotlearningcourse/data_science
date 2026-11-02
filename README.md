@@ -4,7 +4,7 @@ Ce dépôt regroupe les démonstrations du cours et les consignes des étapes du
 
 **Un seul environnement Python pour toutes les démos : exécutez `uv sync` à la racine de `ift3700-6758`.** Les dépendances sont déclarées dans le `pyproject.toml` commun et leurs versions sont enregistrées dans `uv.lock`. Chaque démo utilise la même `.venv` à la racine.
 
-L’environnement utilise **Python 3.11**, NumPy 1.26.4 et pandas 1.5.3 pour être compatible avec PandasAI 2.3.2. Pour les parties **RAG et PandasAI** de la démo 2, utilisez `uv sync --group llm` à la place de `uv sync` afin d’ajouter les dépendances des modèles locaux. Les autres démos n’en ont pas besoin.
+L’environnement utilise **Python 3.11**, NumPy 1.26.4 et pandas 1.5.3 pour être compatible avec PandasAI 2.3.2. Pour les parties **RAG et PandasAI** de la démo 2, utilisez `uv sync --group llm` à la place de `uv sync` afin d’ajouter les dépendances des modèles locaux. Les autres démos n’en ont pas besoin. La démo 5 utilise PyTorch : lancez `uv sync --group gpt`.
 
 ## Première installation
 
@@ -81,6 +81,7 @@ Ouvrez ensuite le notebook souhaité. Arrêtez le serveur avec `Ctrl+C` dans le 
 | [Démo 1](demo_1/README.md) | Environnements Python, Git, NumPy, pandas et premier exemple d’apprentissage automatique | Notebooks `00`, `01`, `02`, puis `03` |
 | [Démo 2](demo_2/README.md) | API NHL et nettoyage; exploration et visualisation interactives (français/anglais); RAG et PandasAI avec Qwen local (anglais) | Notebooks `01`, `02`, puis `04` et `05` (optionnels, groupe `llm`) |
 | [Démo 4](demo_4/README.md) | Validation croisée, recherche d’hyperparamètres et pipelines; intervalles de confiance par bootstrap; projet Titanic complet avec six exercices (français/anglais, à faire en autonomie) | Notebooks `01`, `02`, puis `03` |
+| [Démo 5](demo_5/README.md) | Construire un GPT à partir de zéro : attention, blocs Transformer, génération de texte à partir de Shakespeare, puis passage aux images (français pour l’instant; groupe `gpt`) | Notebook `01` |
 | [Anciens laboratoires](anciens_labs/README.md) | Supports des années précédentes, classés par thème et par langue | Consulter le catalogue et les notes de compatibilité |
 | [Tutoriels Git](tutoriels/git/README.md) | Diaporamas français/anglais et notebook pratique | Ressource indépendante |
 | Tutoriels Python ([français](tutoriels/python/fr/python.ipynb), [anglais](tutoriels/python/en/python.ipynb)) | Variables, structures de données, fonctions et exercices | Introduction indépendante |

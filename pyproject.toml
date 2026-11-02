@@ -23,6 +23,10 @@ dev = [
     "tornado>=6.5.10,<7",
     "matplotlib-inline<0.2",
 ]
+gpt = [
+    "tiktoken>=0.8,<1",
+    "torch>=2.6,<3",
+]
 llm = [
     "accelerate>=1,<2",
     "bitsandbytes>=0.45,<1; sys_platform == 'linux' and platform_machine == 'x86_64'",

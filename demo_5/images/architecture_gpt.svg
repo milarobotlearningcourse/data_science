@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1050" viewBox="0 0 1180 1050" role="img" aria-label="Architecture de l’article Attention Is All You Need : notre GPT garde le décodeur et retire l’encodeur et l’attention croisée.">
+<defs>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2a78d6"/></marker>
+<marker id="arrow-ghost" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b5b4af"/></marker>
+</defs>
+<rect width="1180" height="1050" fill="#ffffff"/>
+<text x="790.0" y="42" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#0b0b0b" text-anchor="middle" font-weight="700">Décodeur : notre GPT</text>
+<text x="790.0" y="68" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#52514e" text-anchor="middle">écrit la suite, un caractère à la fois</text>
+<rect x="560" y="262" width="500" height="578" rx="16" fill="#f5f9fe" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="578" y="292" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2a78d6" text-anchor="start" font-weight="700">Bloc, répété N fois</text>
+<path d="M790.0 954 V924" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 870 V790" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 754 V724" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 664 V633" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 607 V582" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 528 V480" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 444 V414" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 360 V329" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 303 V230" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 176 V146" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 814 H1022 V620 H803.0" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<path d="M790.0 504 H1022 V316 H803.0" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<text x="916.0" y="612" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#2a78d6" text-anchor="middle">connexion résiduelle</text>
+<text x="916.0" y="308" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#2a78d6" text-anchor="middle">connexion résiduelle</text>
+<circle cx="790.0" cy="620" r="13" fill="#ffffff" stroke="#2a78d6" stroke-width="2"/>
+<path d="M783.0 620 H797.0 M790.0 613 V627" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="790.0" cy="316" r="13" fill="#ffffff" stroke="#2a78d6" stroke-width="2"/>
+<path d="M783.0 316 H797.0 M790.0 309 V323" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<rect x="590" y="92" width="400" height="54" rx="10" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="790.0" y="125.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="700">Probabilités du prochain caractère</text>
+<rect x="590" y="176" width="400" height="54" rx="10" fill="#e6f0fb" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="770.0" y="209.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0b0b0b" text-anchor="middle" font-weight="600">Normalisation, linéaire, softmax</text>
+<rect x="932" y="191.0" width="46" height="24" rx="12" fill="#ffffff" stroke="#2a78d6" stroke-width="1"/>
+<text x="955.0" y="208.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="700">B D</text>
+<rect x="590" y="360" width="400" height="54" rx="10" fill="#e6f0fb" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="770.0" y="393.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0b0b0b" text-anchor="middle" font-weight="600">Réseau feed-forward</text>
+<rect x="947" y="375.0" width="31" height="24" rx="12" fill="#ffffff" stroke="#2a78d6" stroke-width="1"/>
+<text x="962.5" y="392.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="700">D</text>
+<rect x="590" y="444" width="400" height="36" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="770.0" y="467.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#52514e" text-anchor="middle">LayerNorm</text>
+<rect x="947" y="450.0" width="31" height="24" rx="12" fill="#ffffff" stroke="#2a78d6" stroke-width="1"/>
+<text x="962.5" y="467.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="700">D</text>
+<rect x="590" y="528" width="400" height="54" rx="10" fill="#f7f6f4" stroke="#b5b4af" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="790.0" y="561.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6e69" text-anchor="middle">Attention croisée : retirée</text>
+<rect x="590" y="664" width="400" height="60" rx="10" fill="#e6f0fb" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="644" y="691.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0b0b0b" text-anchor="start" font-weight="600">Attention multi-têtes masquée</text>
+<text x="644" y="712.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#52514e" text-anchor="start">chaque position voit son passé</text>
+<rect x="932" y="682.0" width="46" height="24" rx="12" fill="#ffffff" stroke="#2a78d6" stroke-width="1"/>
+<text x="955.0" y="699.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="700">C D</text>
+<rect x="604" y="679" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="609" y="679" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="614" y="679" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="619" y="679" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="624" y="679" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="629" y="679" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="604" y="684" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="609" y="684" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="614" y="684" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="619" y="684" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="624" y="684" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="629" y="684" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="604" y="689" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="609" y="689" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="614" y="689" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="619" y="689" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="624" y="689" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="629" y="689" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="604" y="694" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="609" y="694" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="614" y="694" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="619" y="694" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="624" y="694" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="629" y="694" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="604" y="699" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="609" y="699" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="614" y="699" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="619" y="699" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="624" y="699" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="629" y="699" width="5" height="5" fill="#ffffff" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="604" y="704" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="609" y="704" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="614" y="704" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="619" y="704" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="624" y="704" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="629" y="704" width="5" height="5" fill="#2a78d6" stroke="#2a78d6" stroke-width="0.5"/>
+<rect x="590" y="754" width="400" height="36" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="770.0" y="777.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#52514e" text-anchor="middle">LayerNorm</text>
+<rect x="947" y="760.0" width="31" height="24" rx="12" fill="#ffffff" stroke="#2a78d6" stroke-width="1"/>
+<text x="962.5" y="777.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="700">D</text>
+<rect x="590" y="870" width="400" height="54" rx="10" fill="#e6f0fb" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="770.0" y="903.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0b0b0b" text-anchor="middle" font-weight="600">Plongements + positions</text>
+<rect x="932" y="885.0" width="46" height="24" rx="12" fill="#ffffff" stroke="#2a78d6" stroke-width="1"/>
+<text x="955.0" y="902.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="700">B D</text>
+<rect x="590" y="954" width="400" height="60" rx="10" fill="#ffffff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="770.0" y="978" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0b0b0b" text-anchor="middle" font-weight="600">Texte déjà écrit</text>
+<text x="770.0" y="1001" font-family="Menlo, Consolas, monospace" font-size="15" fill="#52514e" text-anchor="middle">To be, or not to b</text>
+<rect x="947" y="972" width="31" height="24" rx="12" fill="#ffffff" stroke="#2a78d6" stroke-width="1"/>
+<text x="962.5" y="989" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="700">A</text>
+<path d="M990 119.0 H1112 V984 H990" fill="none" stroke="#2a78d6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<text x="1134" y="543.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#52514e" text-anchor="middle" transform="rotate(-90 1134 543.0)">On tire un caractère, on l’ajoute au texte, puis on recommence</text>
+<text x="255.0" y="478" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#6f6e69" text-anchor="middle" font-weight="600">Encodeur : retiré</text>
+<text x="255.0" y="504" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#6f6e69" text-anchor="middle">lit la phrase à traduire</text>
+<rect x="40" y="594" width="430" height="246" rx="16" fill="#ffffff" stroke="#b5b4af" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="58" y="624" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#6f6e69" text-anchor="start">Bloc, répété N fois</text>
+<path d="M255.0 954 V924" fill="none" stroke="#b5b4af" stroke-width="2" marker-end="url(#arrow-ghost)"/>
+<path d="M255.0 870 V788" fill="none" stroke="#b5b4af" stroke-width="2" marker-end="url(#arrow-ghost)"/>
+<path d="M255.0 734 V694" fill="none" stroke="#b5b4af" stroke-width="2" marker-end="url(#arrow-ghost)"/>
+<path d="M255.0 640 V555.0 H590" fill="none" stroke="#b5b4af" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow-ghost)"/>
+<rect x="70" y="640" width="370" height="54" rx="10" fill="#f7f6f4" stroke="#b5b4af" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="255.0" y="673.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6e69" text-anchor="middle">Réseau feed-forward</text>
+<rect x="70" y="734" width="370" height="54" rx="10" fill="#f7f6f4" stroke="#b5b4af" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="255.0" y="767.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6e69" text-anchor="middle">Attention multi-têtes</text>
+<rect x="70" y="870" width="370" height="54" rx="10" fill="#f7f6f4" stroke="#b5b4af" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="255.0" y="903.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6e69" text-anchor="middle">Plongements + positions</text>
+<rect x="70" y="954" width="370" height="60" rx="10" fill="#f7f6f4" stroke="#b5b4af" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="255.0" y="990.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6e69" text-anchor="middle">Phrase à traduire</text>
+<text x="467.5" y="541.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#6f6e69" text-anchor="middle">clés et valeurs</text>
+<path d="M458.5 546.0 L476.5 564.0 M476.5 546.0 L458.5 564.0" fill="none" stroke="#6f6e69" stroke-width="2.5"/>
+<text x="40" y="112" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0b0b0b" text-anchor="start" font-weight="700">Comment lire ce schéma</text>
+<text x="40" y="142" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#52514e" text-anchor="start">Le texte circule de bas en haut.</text>
+<text x="40" y="167" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#52514e" text-anchor="start">Les lettres donnent la section du notebook</text>
+<text x="40" y="192" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#52514e" text-anchor="start">où chaque pièce est construite.</text>
+<text x="40" y="217" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#52514e" text-anchor="start">En pointillés gris : ce que nous retirons.</text>
+</svg>

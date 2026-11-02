@@ -4,7 +4,7 @@ This repository contains the course demonstrations and the project milestone gui
 
 **One Python environment for all demos: run `uv sync` at the root of `ift3700-6758`.** Dependencies are declared in the shared `pyproject.toml`, and their versions are recorded in `uv.lock`. Every demo uses the same `.venv` at the repository root.
 
-The environment uses **Python 3.11**, NumPy 1.26.4, and pandas 1.5.3 for compatibility with PandasAI 2.3.2. For the **RAG and PandasAI** sections of Demo 2, use `uv sync --group llm` instead of `uv sync` to add the dependencies for local models. The other demos do not need them.
+The environment uses **Python 3.11**, NumPy 1.26.4, and pandas 1.5.3 for compatibility with PandasAI 2.3.2. For the **RAG and PandasAI** sections of Demo 2, use `uv sync --group llm` instead of `uv sync` to add the dependencies for local models. The other demos do not need them. Demo 5 uses PyTorch: run `uv sync --group gpt`.
 
 ## Initial setup
 
@@ -81,6 +81,7 @@ Then open the notebook you want. Stop the server with `Ctrl+C` in the terminal. 
 | [Demo 1](demo_1/README.md) | Python environments, Git, NumPy, pandas, and a first machine learning example | Notebooks `00`, `01`, `02`, then `03` |
 | [Demo 2](demo_2/README.md) | NHL API and cleaning; interactive exploration and visualization (French/English); RAG and PandasAI with local Qwen (English) | Notebooks `01`, `02`, then `04` and `05` (optional, `llm` group) |
 | [Demo 4](demo_4/README_en.md) | Cross-validation, hyperparameter search and pipelines; bootstrap confidence intervals; a complete Titanic project with six exercises (French/English, self-study) | Notebooks `01`, `02`, then `03` |
+| [Demo 5](demo_5/README_en.md) | Building a GPT from scratch: attention, Transformer blocks, generating text from Shakespeare, then moving on to images (French for now; `gpt` group) | Notebook `01` |
 | [Previous labs](anciens_labs/README.md) | Materials from previous years, organized by topic and language | See the catalog and compatibility notes |
 | [Git tutorials](tutoriels/git/README.md) | French/English slide decks and a hands-on notebook | Standalone resource |
 | Python tutorials ([French](tutoriels/python/fr/python.ipynb), [English](tutoriels/python/en/python.ipynb)) | Variables, data structures, functions, and exercises | Standalone introduction |
