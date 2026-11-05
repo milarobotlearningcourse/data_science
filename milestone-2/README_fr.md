@@ -2,7 +2,7 @@
 
 Sortie : 2 novembre 2026  
 Date limite : 2 décembre 2026, 23 h 59  
-Dernière mise à jour : 2 novembre 2026
+Dernière mise à jour : 5 novembre 2026
 
 **Important : Avant de commencer à travailler sur l'étape 2, publiez une version de l'étape 1 en suivant les instructions [ici](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) et ajoutez [@Jay-D13](https://github.com/Jay-D13) en tant que collaborateur github. Vous n'avez pas besoin d'ajouter quoi que ce soit dans la description ou de téléverser des binaires. Utilisez milestone-1 à la fois comme tag et titre de version *release*, par exemple :**
 
@@ -11,6 +11,8 @@ Dernière mise à jour : 2 novembre 2026
 ![](images/image2-fr.png)
 
 La première étape vous a permis d'acquérir de l'expérience dans la gestion des données, l'analyse exploratoire des données et la création de visualisations. Maintenant, nous allons nous salir les mains avec l'ingénierie des caractéristiques, la sélection des caractéristiques et la modélisation statistique. Vous continuerez à vous appuyer sur les données de jeu acquises à partir de l'[API de statistiques de la LNH](https://gitlab.com/dword4/nhlapi/-/blob/master/new-api.md) et à résoudre le problème de la prédiction de la probabilité qu'un tir *(shot)* soit un but *(goal)*. Vous essayerez un certain nombre de modèles et de caractéristiques différentes et produirez des visualisations pour évaluer l'efficacité de vos modèles. Vous utiliserez [Wandb](https://wandb.ai/site/) pour suivre vos expériences avec votre groupe. Vous présenterez à nouveau votre travail dans un format d'article de blog, en ajoutant un autre article à votre blog existant que vous avez soumis pour l'étape 1.
+
+> **IFT3700 vs IFT6758.** Les deux cours réalisent la même étape, à l'exception de la [Partie 8 (Modèles de fondation tabulaires)](#8-modèles-de-fondation-tabulaires-20-bonus-pour-ift3700), qui est **obligatoire pour IFT6758** et constitue un **bonus pour IFT3700**.
 
 - [Une note sur le plagiat](#une-note-sur-le-plagiat)
 - [Objectifs d'apprentissage](#objectifs-dapprentissage)
@@ -28,7 +30,7 @@ La première étape vous a permis d'acquérir de l'expérience dans la gestion d
   - [5. Modèles avancés (15%)](#5-modèles-avancés-15)
   - [6. Faites de votre mieux! (15%)](#6-faites-de-votre-mieux-15)
   - [7. Évaluer sur l'ensemble de test (10%)](#7-évaluer-sur-lensemble-de-test-10)
-  - [8. Modèles de fondation tabulaires (20%)](#8-modèles-de-fondation-tabulaires-20)
+  - [8. Modèles de fondation tabulaires (20%, bonus pour IFT3700)](#8-modèles-de-fondation-tabulaires-20-bonus-pour-ift3700)
 - [Évaluations de groupe](#évaluations-de-groupe)
   - [Comment les scores influencent votre note](#comment-les-scores-influencent-votre-note)
 - [Références utiles](#références-utiles)
@@ -48,7 +50,7 @@ L'intégrité est une attente importante de ce projet de cours et tout cas suspe
   * Expérimenter avec des classificateurs couramment utilisés et différentes combinaisons de caractéristiques pour essayer de produire un bon classificateur xG  
   * Acquérir une compréhension des métriques couramment utilisées telles que les courbes ROC et l'AUC  
   * Produire des figures pour justifier vos résultats  
-* **Modèles de fondation tabulaires**  
+* **Modèles de fondation tabulaires [bonus pour IFT3700]**  
   * Comprendre comment un modèle de fondation préentraîné peut faire des prédictions sur une nouvelle table grâce à l'apprentissage en contexte (*in-context learning*), sans aucun entraînement ni ajustement fin  
   * Comparer un modèle de fondation tabulaire (TabFM) à un modèle de gradient boosting entraîné (XGBoost) sur le plan de la performance prédictive, de la calibration et du coût de calcul  
 * **Reproductibilité et suivi des expériences**  
@@ -97,7 +99,7 @@ Voici une liste de contrôle rapide pour commencer à utiliser Wandb :
    1. Réclamez votre accès académique gratuit via [ce lien](https://forge.coreweave.com/wandb/academic_application).  
       **→ Vous avez besoin d'un compte académique pour ajouter des coéquipiers!**  
 2. Désignez un membre de l'équipe pour **créer l'espace de travail** de votre projet. Ce membre de l'équipe ajoutera le compte de l'auxiliaire d'enseignement d'IFT6758 ([`jay-d13`](https://forge.coreweave.com/profile/jay-d13)) à l'espace de travail Wandb, ainsi que le reste de ses coéquipiers.  
-   - Appelez l'espace de travail **`IFT3700.2026-##`**, **`IFT6758.2026-A##`** ou **`IFT6758.2026-B##`**, selon votre cours et votre section (remplacez les # par votre numéro d'équipe)  
+   - Appelez l'espace de travail **`IFT3700-2026-##`**, **`IFT6758-2026-A##`** ou **`IFT6758-2026-B##`**, selon votre cours et votre section (remplacez les # par votre numéro d'équipe)  
 3. Commencez à utiliser l'espace de travail pour consigner toutes les métadonnées de vos expériences et pour sauvegarder/enregistrer vos modèles  
 4. Reproductibilité assurée![^1]
 
@@ -356,7 +358,9 @@ Notez que vous êtes plus que bienvenus d'évaluer plus que les cinq spécifiés
 
 2. Testez vos 5 modèles sur les matchs intacts des séries éliminatoires *(playoffs)* 2023/24. **Dans votre article de blog, incluez les quatre figures décrites ci-dessus. Discutez de vos résultats et de vos observations sur cet ensemble de test. Y a-t-il des différences par rapport à l'ensemble de test de la saison régulière ou obtenez-vous des performances de « généralisation » similaires?**
 
-### 8. Modèles de fondation tabulaires (20%)
+### 8. Modèles de fondation tabulaires (20%, bonus pour IFT3700)
+
+> Cette partie est obligatoire pour IFT6758 et constitue un bonus pour IFT3700.
 
 Les grands modèles de langage (LLM) peuvent effectuer de nouvelles tâches sans réentraînement grâce à l'apprentissage en contexte (*in-context learning*) : des exemples sont fournis dans l'entrée au moment de l'inférence, et les paramètres du modèle ne sont pas mis à jour [1]. TabFM [2] applique la même idée aux tables. Il est dit *zero-shot* parce qu'il n'y a aucun entraînement ni ajustement fin sur votre jeu de données : les lignes étiquetées que vous passez à `fit` constituent le contexte, et les prédictions proviennent d'une seule passe avant (*forward pass*).
 
