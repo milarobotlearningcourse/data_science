@@ -2,7 +2,7 @@
 
 Released: 2 November 2026  
 Due date: 2 December 2026, 23:59  
-Last updated: 2 November 2026
+Last updated: 5 November 2026
 
 **Important: Before beginning work on milestone 2, publish a release for milestone 1 by following the instructions [here](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository), and please add [@Jay-D13](https://github.com/Jay-D13) as a github collaborator. You do not need to add anything in the description, or upload any binaries. Use milestone-1 as both the tag and release title, eg:**
 
@@ -10,6 +10,8 @@ Last updated: 2 November 2026
 
 ![](images/image2-en.png)  
 The first milestone gave you some experience with data wrangling, exploratory data analysis, and creating visualisations. Now, we'll get our hands dirty with feature engineering, feature selection, and statistical modelling. You will continue to build on the play-by-play data acquired from the [NHL stats API](https://gitlab.com/dword4/nhlapi/-/blob/master/new-api.md), and tackle the problem of predicting the probability that a shot is a goal. You will experiment with a number of different models and features, and produce some visualisations to gauge the effectiveness of your model. You will be using [Wandb](https://wandb.ai/site/) to keep track of your experiments with your group. You will once again present your work in a blog post format, adding another post to your existing blog that you have submitted for milestone 1.
+
+> **IFT3700 vs IFT6758.** Both courses complete the same milestone, except for [Part 8 (Tabular Foundation Models)](#8-tabular-foundation-models-20-bonus-for-ift3700), which is **required for IFT6758** and a **bonus for IFT3700**.
 
 - [A note on Plagiarism](#a-note-on-plagiarism)
 - [Learning Objectives](#learning-objectives)
@@ -27,7 +29,7 @@ The first milestone gave you some experience with data wrangling, exploratory da
   - [5. Advanced Models (15%)](#5-advanced-models-15)
   - [6. Give it your best shot! (15%)](#6-give-it-your-best-shot-15)
   - [7. Evaluate on test set (10%)](#7-evaluate-on-test-set-10)
-  - [8. Tabular Foundation Models (20%)](#8-tabular-foundation-models-20)
+  - [8. Tabular Foundation Models (20%, bonus for IFT3700)](#8-tabular-foundation-models-20-bonus-for-ift3700)
 - [Group Evaluations](#group-evaluations)
   - [How scores impact your grade](#how-scores-impact-your-grade)
 - [Useful References](#useful-references)
@@ -47,7 +49,7 @@ Integrity is an important expectation of this course project and any suspected c
   * Experiment with commonly used classifiers and different combinations of features to try and produce a good xG classifier  
   * Gain an understanding of commonly used metrics such as ROC curves and AUC  
   * Produce figures to justify your findings  
-* **Tabular Foundation Models**  
+* **Tabular Foundation Models [bonus for IFT3700]**  
   * Understand how a pretrained foundation model can make predictions on a new table through in-context learning, without any training or fine-tuning  
   * Compare a tabular foundation model (TabFM) against a trained gradient-boosted model (XGBoost) in terms of predictive performance, calibration, and compute cost  
 * **Reproducibility and Experiment tracking**  
@@ -97,7 +99,7 @@ Here's a quick checklist to get started using Wandb:
    1. Claim your free academic tier via [this link](https://forge.coreweave.com/wandb/academic_application).   
       **→ You need an academic account to add teammates!**   
 2. Designate one team member to **create the workspace** for your project. This team member will add the IFT6758 TA account ([`jay-d13`](https://forge.coreweave.com/profile/jay-d13)) to the Wandb workspace and the rest of their team members.   
-- Call the workspace **`IFT3700.2026-##`**, **`IFT6758.2026-A##`** or **`IFT6758.2026-B##`**, according to your course and section (sub in your team number)  
+- Call the workspace **`IFT3700-2026-##`**, **`IFT6758-2026-A##`** or **`IFT6758-2026-B##`**, according to your course and section (sub in your team number)  
 3. Begin using the workspace to log all your experiment metadata, and save/register models  
 4. Reproducibility profit![^1]
 
@@ -355,7 +357,9 @@ Note that you're more than welcome to evaluate more than the five specified abov
 
 2. Test your 5 models on the untouched 2023/24 playoff games. **In your blogpost, include the four figures described above. Discuss your results and observations on this test set. Are there any differences to the regular season test set or do you get similar 'generalisation' performance?**
 
-### 8. Tabular Foundation Models (20%)
+### 8. Tabular Foundation Models (20%, bonus for IFT3700)
+
+> This part is required for IFT6758 and a bonus for IFT3700.
 
 Large language models (LLMs) can perform new tasks without retraining through in-context learning: examples are provided as part of the input at inference time, and the model parameters are not updated [1]. TabFM [2] applies the same idea to tables. It is called zero-shot because there is no training or fine-tuning on your dataset: the labelled rows you pass to `fit` are the context, and predictions come from a single forward pass.
 
