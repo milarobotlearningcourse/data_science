@@ -83,6 +83,7 @@ Then open the notebook you want. Stop the server with `Ctrl+C` in the terminal. 
 | [Demo 4](demo_4/README_en.md) | Cross-validation, hyperparameter search and pipelines; bootstrap confidence intervals; a complete Titanic project with six exercises (French/English, self-study) | Notebooks `01`, `02`, then `03` |
 | [Demo 5](demo_5/README_en.md) | Building a GPT from scratch: attention, Transformer blocks, generating text from Shakespeare, then moving on to images (French for now; `gpt` group) | Notebook `01` |
 | [Demo 6](demo_6/README_en.md) | Images as data: pixels and channels, point operations, convolution, edges and augmentation with OpenCV, then a small convolutional network on MNIST (French for now; `vision` group for section F) | Notebook `01` |
+| [Demo 7](demo_7/README_en.md) | A micro VLM: from the GPT of Demo 5 to a Vision Transformer, then to a model that looks at a photo, reads a question and writes the answer (French for now; `vlm` group) | Notebook `01` |
 | [Previous labs](anciens_labs/README.md) | Materials from previous years, organized by topic and language | See the catalog and compatibility notes |
 | [Git tutorials](tutoriels/git/README.md) | French/English slide decks and a hands-on notebook | Standalone resource |
 | Python tutorials ([French](tutoriels/python/fr/python.ipynb), [English](tutoriels/python/en/python.ipynb)) | Variables, data structures, functions, and exercises | Standalone introduction |
