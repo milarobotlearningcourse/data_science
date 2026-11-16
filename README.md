@@ -83,6 +83,7 @@ Ouvrez ensuite le notebook souhaité. Arrêtez le serveur avec `Ctrl+C` dans le 
 | [Démo 4](demo_4/README.md) | Validation croisée, recherche d’hyperparamètres et pipelines; intervalles de confiance par bootstrap; projet Titanic complet avec six exercices (français/anglais, à faire en autonomie) | Notebooks `01`, `02`, puis `03` |
 | [Démo 5](demo_5/README.md) | Construire un GPT à partir de zéro : attention, blocs Transformer, génération de texte à partir de Shakespeare, puis passage aux images (français pour l’instant; groupe `gpt`) | Notebook `01` |
 | [Démo 6](demo_6/README.md) | Les images comme données : pixels et canaux, opérations ponctuelles, convolution, contours et augmentation avec OpenCV, puis un petit réseau convolutif sur MNIST (français pour l’instant; groupe `vision` pour la section F) | Notebook `01` |
+| [Démo 7](demo_7/README.md) | Un micro VLM : du GPT de la démo 5 à un Vision Transformer, puis à un modèle qui regarde une photo, lit une question et écrit la réponse (français pour l’instant; groupe `vlm`) | Notebook `01` |
 | [Anciens laboratoires](anciens_labs/README.md) | Supports des années précédentes, classés par thème et par langue | Consulter le catalogue et les notes de compatibilité |
 | [Tutoriels Git](tutoriels/git/README.md) | Diaporamas français/anglais et notebook pratique | Ressource indépendante |
 | Tutoriels Python ([français](tutoriels/python/fr/python.ipynb), [anglais](tutoriels/python/en/python.ipynb)) | Variables, structures de données, fonctions et exercices | Introduction indépendante |

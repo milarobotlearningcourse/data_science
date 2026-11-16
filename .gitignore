@@ -9,6 +9,9 @@ travail_personnel/
 # Données téléchargées et tables générées par les démos.
 data/
 
+# Modèles enregistrés par les démos (la démo 7 écrit microVLM.pth à côté du notebook).
+*.pth
+
 # Anciens labos publiés pour le moment. Les autres restent locaux.
 /anciens_labs/*
 !/anciens_labs/README.md
