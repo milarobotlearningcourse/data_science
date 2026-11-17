@@ -22,7 +22,7 @@ A **vision language model** (VLM) takes an image and text, and answers with text
 | 5. Encoding text with T5 | What real VLMs reuse (no code) |
 | 6. Generating answers | Asking questions about unseen photos, comparing with an answer given without looking at the photo |
 
-The notebook has eight blocks marked `TODO`, which we fill in together during the session. Until a block is filled in, the cells that depend on it fail.
+The notebook has eight blocks marked `TODO`, which we fill in together during the session. Until a block is filled in, the cells that depend on it fail. The [solution notebook](notebooks/fr/01_micro_vlm_solution.ipynb) is the same notebook with the eight blocks filled in.
 
 ## Setup and data
 
