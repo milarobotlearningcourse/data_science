@@ -20,7 +20,7 @@ Un **modèle vision-langage** (VLM) reçoit une image et du texte, et répond pa
 | 5. Encoder le texte avec T5 | Ce que les vrais VLM réutilisent (sans code) |
 | 6. Générer des réponses | Poser des questions sur des photos jamais vues, comparer à une réponse donnée sans regarder la photo |
 
-Le notebook contient huit blocs marqués `TODO`, que nous complétons ensemble pendant la séance. Tant qu’un bloc n’est pas rempli, les cellules qui en dépendent échouent.
+Le notebook contient huit blocs marqués `TODO`, que nous complétons ensemble pendant la séance. Tant qu’un bloc n’est pas rempli, les cellules qui en dépendent échouent. Le [corrigé](notebooks/fr/01_micro_vlm_solution.ipynb) est le même notebook, avec les huit blocs remplis.
 
 ## Configuration et données
 
