@@ -1,0 +1,62 @@
+# To build a container, you will use the docker build command
+# https://docs.docker.com/reference/cli/docker/buildx/build/
+#
+#   docker build -t <IMAGE TAG> -f Dockerfile .
+#
+
+
+# https://docs.docker.com/reference/dockerfile/#from
+# You shouldn't need to change this
+FROM python:3.11-slim
+
+# uv, to install your dependencies from pyproject.toml and uv.lock
+# https://docs.astral.sh/uv/guides/integration/docker/
+# You shouldn't need to change this
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+# https://docs.docker.com/reference/dockerfile/#workdir
+# Create and cd into /code as your working directory
+WORKDIR /code
+
+
+# The main docker commands you will find useful:
+# 
+# Copy a file or directory
+# https://docs.docker.com/reference/dockerfile/#copy
+#
+#       COPY ./<SOURCE_DIR/FILE> ./<DOCKER_DIR/FILE>
+#
+# Run a shell command (tip: chain shell commands with && rather than multiple RUN commands)
+# https://docs.docker.com/reference/dockerfile/#run
+#
+#       RUN <SHELL COMMAND>   
+#
+# Set an environment variable:
+# https://docs.docker.com/reference/dockerfile/#env
+#
+#       ENV <ENV_VAR>=<DEFAULT>
+#
+# Expose a port
+# https://docs.docker.com/reference/dockerfile/#expose
+#
+#       EXPOSE <PORT>
+#
+# Provide default command for executing container
+# https://docs.docker.com/reference/dockerfile/#cmd
+#
+#       CMD <SHELL COMMAND>
+
+
+
+# TODO: add code, optionally a default model if you want 
+
+
+# TODO: install libs
+
+
+# TODO: expose ports (or do this in docker-compose)
+
+
+# TODO: specify default command - this is not required because you can always specify the command
+# either with the docker run command or in the docker-compose file
+

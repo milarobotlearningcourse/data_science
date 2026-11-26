@@ -1,0 +1,42 @@
+steps:
+  # Create a step that builds the Docker image
+  # The Docker image should be tagged with ${BUILD_ID} and `latest`.
+  - name: "gcr.io/cloud-builders/docker" # Tells Cloudbuild that this step involves Docker
+    id: # Give me a unique name that describes this step
+    args:
+      # A list of arguments to provide to the `docker` command.
+      # Eg. calling `docker build --tag ${_IMAGE_URI}:${BUILD_ID} --tag ${_IMAGE_URI}:latest -f Dockerfile .` would look like
+      # args:
+      #   - build
+      #   - --tag
+      #   - ${_IMAGE_URI}:${BUILD_ID} # Example of a substitution
+      #   - --tag
+      #   - ${_IMAGE_URI}:latest
+      #   - -f
+      #   - Dockerfile
+      #   - .
+  
+  # Create a step that pushes the Docker image to the Artifact registry
+  # with the tag ${BUILD_ID}
+  - name: "gcr.io/cloud-builders/docker"
+    id: # Give me a unique name that describes this step.
+    args:
+      # Here we will want to invoke the `push` command.
+      # eg. push IMAGE:TAG
+
+  # Create a step that pushes the Docker image to the Artifact registry
+  # with the tag `latest`.
+  - name: "gcr.io/cloud-builders/docker"
+    id: # Give me a unique name that describes this step.
+    args:
+      # Here we will want to invoke the `push` command.
+      # eg. push IMAGE:TAG
+
+  # IFT6758 only: repeat the three steps above for the image of your serving app,
+  # built from Dockerfile.serving, with ${_SERVING_IMAGE_URI} instead of ${_IMAGE_URI}.
+
+substitutions:
+    _IMAGE_URI: required
+    # _SERVING_IMAGE_URI: required # IFT6758 only: uncomment this line
+options:
+    substitutionOption: 'ALLOW_LOOSE'
