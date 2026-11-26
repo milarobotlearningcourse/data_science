@@ -1,0 +1,26 @@
+# docker-compose.yaml
+
+services:
+  streamlit:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+#      args:
+#        ARG: <ARG>
+#    image: ift6758/streamlit:<TAG>
+#    ports:
+#      - <STREAMLIT_PORT>:<STREAMLIT_PORT>
+#    environment:
+#      DOCKER_ENV_VAR: ${LOCAL_ENV_VAR}
+###### IFT6758 only: uncomment below to add the serving container to your docker compose
+##  serving:
+##    build:
+##      context: ./
+##      dockerfile: ./Dockerfile.serving
+##      args:
+##        ARG: <ARG>
+##    image: ift6758/serving:<TAG>
+##    ports:
+##      - <SERVING_PORT>:<SERVING_PORT>
+##    environment:
+##      OTHER_DOCKER_ENV_VAR: ${OTHER_LOCAL_ENV_VAR}

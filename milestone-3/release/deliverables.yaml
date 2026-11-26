@@ -1,0 +1,4 @@
+services:
+  app:
+    build_id: # Paste the build ID of the Cloud Build
+    service_url: # Paste the URL of the Cloud Run service
